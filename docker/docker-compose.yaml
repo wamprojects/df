@@ -486,7 +486,7 @@ services:
       - api
       - web
     ports:
-      - '${EXPOSE_NGINX_PORT:-8085}:${NGINX_PORT:-80}'
+      - '${EXPOSE_NGINX_PORT:-8083}:${NGINX_PORT:-80}'
       - '${EXPOSE_NGINX_SSL_PORT:-8445}:${NGINX_SSL_PORT:-8445}'
 
   # The Weaviate vector store.
